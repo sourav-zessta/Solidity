@@ -1,0 +1,23 @@
+{
+  "name": "soliditytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon sol.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/tx": "^4.2.0",
+    "@types/web3": "^1.2.2",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.6",
+    "solc": "^0.8.20",
+    "web3": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
